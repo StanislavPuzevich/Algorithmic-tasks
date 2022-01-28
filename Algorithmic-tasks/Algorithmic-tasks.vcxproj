@@ -139,6 +139,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="HardProblem_1.cpp" />
+    <ClCompile Include="HardProblem_2.cpp" />
     <ClCompile Include="MediumProblem_1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
