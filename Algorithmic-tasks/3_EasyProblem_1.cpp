@@ -66,6 +66,6 @@ int main()
 	getline(std::cin, s);
 
 	std::cout << "RESULT: " << romanToInt(s) << std::endl;
-
+	
 	return 0;
 }
