@@ -32,6 +32,6 @@ int main()
 	std::vector<int>v2{2,3,5,7};
 	
 	std::cout << "RESULT: " << findMedianSortedArrays(v1, v2);
-
+	
 	return 0;
 }
