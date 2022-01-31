@@ -41,6 +41,6 @@ int main()
 	};
 
 	std::cout << "RESULT: " << maximumWealth(accounts) << std::endl;
-
+	
 	return 0;
 }
