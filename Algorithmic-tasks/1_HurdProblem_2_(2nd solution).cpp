@@ -18,7 +18,6 @@
 
 #include <iostream>               
 #include <vector>          
-#include <Algorithm>
 
 
 int trap(std::vector<int>& height)              //после анализа чужих функций, переписал свою
