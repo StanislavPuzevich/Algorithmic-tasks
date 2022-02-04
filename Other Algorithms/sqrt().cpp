@@ -1,4 +1,4 @@
-﻿//
+// Алгоритм корня квадратного sqrt() 
 
 #include <iostream>               
 
@@ -25,8 +25,6 @@ int sqrt(int n)
 
 int main()                                                 
 {           
-													
 	std::cout << "RESULT: " << sqrt(1342) << std::endl;
-
 	return 0;
 }
