@@ -51,5 +51,6 @@ public:
             result.push_back(temp->val);
             temp = temp->right;
         }
+        return result
     }
 };
