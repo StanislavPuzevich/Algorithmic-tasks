@@ -24,18 +24,19 @@ public:
     std::vector<std::vector<int>> generate(int numRows) 
     {
         std::vector<std::vector<int>> result;
+        std::vector<int> temp;
 
         for (int i = 0; i < numRows; i++)
         {
-            std::vector<int> temp;
             temp.push_back(1);
 
             for (int j = 1; j <= i; j++)
             {
-                if(j == i) temp.push_back(1);
+                if(j == i)temp.push_back(1);
                 else temp.push_back(result[i - 1][j - 1] + result[i - 1][j]);
             }
             result.push_back(temp);
+            temp.clear();
         }
         return result;
     }
