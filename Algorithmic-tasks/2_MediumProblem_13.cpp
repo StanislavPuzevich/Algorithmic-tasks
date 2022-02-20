@@ -14,7 +14,7 @@
 //    1 <= intervals.length <= 1000
 //    intervals[i].length == 2
 //    0 <= li <= ri <= 105
-//    All the given intervals are unique.
+//    All the given intervals are unique
 
 #include <iostream>   
 #include <vector>
