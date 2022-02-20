@@ -32,10 +32,8 @@ public:
 
             for (int j = 1; j <= i; j++)
             {
-                if(j == i)  
-                    temp.push_back(1);
-                else
-                    temp.push_back(result[i - 1][j - 1] + result[i - 1][j]);
+                if(j == i) temp.push_back(1);
+                else temp.push_back(result[i - 1][j - 1] + result[i - 1][j]);
             }
             result.push_back(temp);
         }
