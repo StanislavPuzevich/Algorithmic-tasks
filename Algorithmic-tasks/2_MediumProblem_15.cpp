@@ -48,7 +48,7 @@ public:
 int main()
 {   
     Solution s;
-    std::vector<int> nums{ 1,2,3,4 };
+    std::vector<int> nums{ 1,2,3,4,5,6,7,12,15,18,33 };
     
     std::cout << "Result: " << s.numberOfArithmeticSlices(nums) << std::endl;
 
