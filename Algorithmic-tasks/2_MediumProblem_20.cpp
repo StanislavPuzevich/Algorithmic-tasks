@@ -16,9 +16,6 @@
 //	0 <= k <= 2 * 109
 
 #include <iostream>
-#include <vector>
-#include <algorithm>
-#include <map>
 
 
 struct ListNode
