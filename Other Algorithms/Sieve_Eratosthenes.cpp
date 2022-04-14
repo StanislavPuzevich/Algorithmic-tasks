@@ -17,4 +17,6 @@ int main()
 	for (int i = 0; i < SIZE; i++)
 		if (mas[i] == 0)
 			std::cout << i << " ";
+	
+	return 0;
 }
