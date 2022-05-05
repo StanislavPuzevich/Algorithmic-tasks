@@ -21,13 +21,15 @@
 #include <vector>
 #include <algorithm>
 
+constexpr int MAX_SIZE = 100000;
+
 class Solution 
 {
 public:
     //O^n3
     int threeSumClosest_1(std::vector<int>& nums, int target) 
     {
-        int min = 100000, result = 0;
+        int min = MAX_SIZE, result = 0;
         int size = nums.size();
         for (int i = 0; i < size - 2; i++)
             for (int j = i + 1; j < size - 1; j++)
@@ -44,7 +46,7 @@ public:
     //O^n2
     int threeSumClosest_2(std::vector<int>& nums, int target)
     {
-        int min = 100000, result = 0;
+        int min = MAX_SIZE, result = 0;
         int size = nums.size();
         std::sort(nums.begin(), nums.end());
         for (int i = 0; i < size - 2; i++)
