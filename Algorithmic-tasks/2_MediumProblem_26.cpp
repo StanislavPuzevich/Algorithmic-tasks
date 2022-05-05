@@ -162,7 +162,7 @@ public:
 int main()
 {
     Solution s;
-    std::vector input { -1,0,1,2,-1,-4 };    // initializing a vector from C++20
+    std::vector input { -1,0,1,2,-1,-4 };    // initializing a vector from C++17
     std::vector<std::vector<int>>result = s.threeSum_4(input);
     for (auto i : result)
     {
