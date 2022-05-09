@@ -66,7 +66,7 @@ int main()
 
     std::cout << "Result: " << std::endl;
     for (auto i : result)
-        std::cout << "Result: " << i << '\t';
+        std::cout << i << '\t';
     std::cout << std::endl;
 
     return 0;
