@@ -46,7 +46,7 @@ struct ListNode
 class Solution
 {
 public:
-    ListNode* getIntersectionNode(ListNode* headA, ListNode* headB)
+    ListNode* getIntersectionNode_1(ListNode* headA, ListNode* headB)       // 1st version 12.03.2022
     {
         int sizeA = 0, sizeB = 0;
         ListNode* listA = headA;
@@ -98,6 +98,65 @@ public:
                 listB = listB->next;
             }
         }
+        return nullptr;
+    }
+    
+    ListNode* getIntersectionNode_2(ListNode* headA, ListNode* headB)       // 2nd version 06.06.2022
+    {
+        int dif = 0;
+        bool check;
+        ListNode* temp1 = headA;
+        ListNode* temp2 = headB;
+
+        while (temp1 && temp2)
+        {
+            temp1 = temp1->next;
+            temp2 = temp2->next;
+        }
+        if (temp1)
+        {
+            check = true;
+            while (temp1)
+            {
+                temp1 = temp1->next;
+                dif++;
+            }
+        }
+        else
+        {
+            check = false;
+            while (temp2)
+            {
+                temp2 = temp2->next;
+                dif++;
+            }
+        }
+        
+        if (check)
+        {
+            while (dif)
+            {
+                headA = headA->next;
+                dif--;
+            }
+        }
+        else
+        {
+            while (dif)
+            {
+                headB = headB->next;
+                dif--;
+            }
+        }
+
+        while (headA && headB)
+        {
+            if (headA == headB) return headA;
+
+            headA = headA->next;
+            headB = headB->next;
+        }
+
         return nullptr;
     }
 };
