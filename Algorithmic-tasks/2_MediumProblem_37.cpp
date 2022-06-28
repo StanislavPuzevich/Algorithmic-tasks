@@ -29,7 +29,7 @@
 //	Note that we only care about characters that are still in the string at the end(i.e.frequency of 0 is ignored).
 //
 //Constraints :
-//	1 <= s.length <= 105
+//	1 <= s.length <= 10^5
 //	s contains only lowercase English letters.
 
 #include <iostream>
@@ -44,10 +44,10 @@ public:
 		std::priority_queue<int> sizes;
 		std::sort(s.begin(), s.end());
 
-		char* p1 = &s[0], * p2 = &s[1];
+		char *p1 = &s[0], *p2 = &s[1];
 		int count = 1, res = 0;
 
-		for(int i = 0; i < s.length(); i++)
+		for (int i = 0; i < s.length(); i++)
 		{
 			if (*p1 == *p2)
 			{
