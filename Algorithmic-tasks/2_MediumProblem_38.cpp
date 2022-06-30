@@ -50,7 +50,7 @@ public:
 int main()
 {
     Solution s;
-    std::vector<int> nums {};
+    std::vector<int> nums {1, 10, 2, 9};
 
     std::cout << s.minMoves2(nums) << std::endl;
 
