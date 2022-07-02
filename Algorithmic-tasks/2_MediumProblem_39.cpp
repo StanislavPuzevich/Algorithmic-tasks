@@ -43,7 +43,7 @@ class Solution
 {
 public:
 	// concise version
-	int maxArea(int h, int w, std::vector<int>& horizontalCuts, std::vector<int>& verticalCuts)
+	int maxArea_1(int h, int w, std::vector<int>& horizontalCuts, std::vector<int>& verticalCuts)
 	{
 		int max_horizontal = 0, max_vertical = 0;
 
@@ -63,7 +63,7 @@ public:
 	}
 
 	// more faster version ('for' cycle is replaced by 'while' cycle)
-	int maxArea(int h, int w, std::vector<int>& horizontalCuts, std::vector<int>& verticalCuts)
+	int maxArea_2(int h, int w, std::vector<int>& horizontalCuts, std::vector<int>& verticalCuts)
 	{
 		int max_horizontal = 0, max_vertical = 0;
 
@@ -105,7 +105,7 @@ int main()
 	int h = 5, w = 4;
 	std::vector<int> horizontalCuts{ 1, 2, 4 }, verticalCuts{ 1, 3 };
 
-	std::cout << "Result: " << s.maxArea(h, w, horizontalCuts, verticalCuts) << std::endl;
+	std::cout << "Result: " << s.maxArea_1(h, w, horizontalCuts, verticalCuts) << std::endl;
 
 	return 0;
 }
