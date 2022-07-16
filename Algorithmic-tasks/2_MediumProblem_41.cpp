@@ -45,7 +45,8 @@ struct Point
 class Solution 
 {
 public:
-    int maxAreaOfIsland(std::vector<std::vector<int>>& grid)
+    // stack Solution
+    int maxAreaOfIsland(std::vector<std::vector<int>> grid)
     {
         int max_island = 0, counter = 0;
         int size_col = grid.size(), size_row = grid[0].size();
@@ -97,6 +98,46 @@ public:
 
         return max_island;
     }
+
+    // recursive Solution
+    int maxAreaOfIsland_2(std::vector<std::vector<int>>& grid)
+    {
+        int max_island = 0, counter;
+        int size_col = grid.size(), size_row = grid[0].size();
+
+        for (int i = 0; i < size_col; i++)
+        {
+            for (int j = 0; j < size_row; j++)
+            {
+                if (grid[i][j] == 1)
+                {
+                    counter = 0;
+                    counter_funct(grid, counter, i, j);
+                    max_island = std::max(max_island, counter);
+                }
+            }
+        }
+
+        return max_island;
+    }
+
+    void counter_funct(std::vector<std::vector<int>>& grid, int& counter, int i, int j)
+    {
+        grid[i][j] = 0;
+        counter++;
+
+        if (i > 0 && grid[i - 1][j] == 1)
+            counter_funct(grid, counter, i - 1, j);
+
+        if (i + 1 < grid.size() && grid[i + 1][j] == 1)
+            counter_funct(grid, counter, i + 1, j);
+
+        if (j > 0 && grid[i][j - 1] == 1)
+            counter_funct(grid, counter, i, j - 1);
+
+        if (j + 1 < grid[i].size() && grid[i][j + 1] == 1)
+            counter_funct(grid, counter, i, j + 1);
+    }
 };
 
 int main()
@@ -110,7 +151,11 @@ int main()
         {0,0,0,1,1}
     };
 
-    std::cout << "Max Area of Island: " << s.maxAreaOfIsland(vec) << std::endl;
+    /*1st method takes an array by value to leave it operable for the second method,
+    which takes an array as a parameter by reference.*/
+
+    std::cout << "Max Area of Island (1st sol): " << s.maxAreaOfIsland(vec) << std::endl;
+    std::cout << "Max Area of Island (2nd sol): " << s.maxAreaOfIsland_2(vec) << std::endl;
 
     return 0;
 }
