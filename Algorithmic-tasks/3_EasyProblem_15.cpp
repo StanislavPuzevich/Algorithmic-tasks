@@ -23,7 +23,15 @@
 class Solution 
 {
 public:
-    bool method1_isAnagram(std::string s, std::string t)    //Runtime:6-8ms  USING VECTOR
+    bool method4_isAnagram(std::string s, std::string t) // 28.07.2022 MAX short solution!
+    {
+        std::sort(s.begin(), s.end());
+        std::sort(t.begin(), t.end());
+        
+        return s == t ? true : false;
+    }
+    
+    bool method1_isAnagram(std::string s, std::string t) // 07.03.2022 Runtime:6-8ms  USING VECTOR
     {
         std::vector<int>vec1(26, 0);
         std::vector<int>vec2(26, 0);
@@ -39,7 +47,7 @@ public:
         return false;
     }
 
-    bool method2_isAnagram(std::string s, std::string t)    //Runtime:22-32ms   USING SORT
+    bool method2_isAnagram(std::string s, std::string t) // 07.03.2022 Runtime:22-32ms   USING SORT
     {
         std::vector<char> vec1;
         std::vector<char> vec2;
@@ -58,7 +66,7 @@ public:
         return false;
     }
 
-    bool method3_isAnagram(std::string s, std::string t)     //Runtime:18-24ms   USING MAP
+    bool method3_isAnagram(std::string s, std::string t) // 07.03.2022 Runtime:18-24ms   USING MAP
     {
         if (s.length() != t.length()) return false;
 
