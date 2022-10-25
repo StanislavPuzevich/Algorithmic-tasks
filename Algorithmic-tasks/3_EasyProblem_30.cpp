@@ -36,7 +36,7 @@
 class Solution 
 {
 public:
-	bool arrayStringsAreEqual_1(std::vector<std::string>& word1, std::vector<std::string>& word2)
+	bool arrayStringsAreEqual_1(std::vector<std::string>& word1, std::vector<std::string>& word2)  // 1-st solution
 	{
 		std::string s1, s2;
 
@@ -46,7 +46,7 @@ public:
 		return s1 == s2;
 	}
 
-	bool arrayStringsAreEqual_2(std::vector<std::string>& word1, std::vector<std::string>& word2)
+	bool arrayStringsAreEqual_2(std::vector<std::string>& word1, std::vector<std::string>& word2)  // 2-nd solution
 	{
 		std::string s1;
 
