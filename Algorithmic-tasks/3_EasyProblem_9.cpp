@@ -30,7 +30,7 @@
 class Solution 
 {
 public:
-    bool containsDuplicate_vers1(std::vector<int>& nums)    // O(N*log(N))  Runtime: ~123ms Beats 91.26% | Memory: 57.4MB Beats 71.4%
+    bool containsDuplicate_vers1(std::vector<int>& nums)    // O(N*log(N)) Runtime: ~123ms Beats 91.26% | Memory: 57.4MB Beats 71.4%
     {                                                      
         std::sort(nums.begin(), nums.end());               
                                                            
@@ -41,7 +41,7 @@ public:
         return false;                                      
     }                                                      
                                                            
-    bool containsDuplicate_vers2(std::vector<int>& nums)    // O(N)         Runtime: ~160ms Beats 37.50% | Memory: 71.5MB Beats 25.41%
+    bool containsDuplicate_vers2(std::vector<int>& nums)    // O(N)        Runtime: ~160ms Beats 37.50% | Memory: 71.5MB Beats 25.41%
     {
         std::unordered_set<int> ust;        //std::unordered_map<int,int> ump;
 
@@ -50,7 +50,7 @@ public:
         return nums.size() > ust.size() ? true : false;
     }
 
-    bool containsDuplicate_vers3(std::vector<int>& nums)    // O(N)         Runtime: ~135ms Beats 78.35% | Memory: 69.6MB Beats 52.7%
+    bool containsDuplicate_vers3(std::vector<int>& nums)    // O(N)        Runtime: ~135ms Beats 78.35% | Memory: 69.6MB Beats 52.7%
     {
         std::unordered_set<int> ust;
 
