@@ -32,7 +32,7 @@
 //Constraints :
 //    1 <= s.length <= 105
 //    s consists of lowercase English letters and stars * .
-//    The operation above can be performed on s.
+//    The operation above can be performed on s. 
 
 #include <iostream>
 #include <string>
