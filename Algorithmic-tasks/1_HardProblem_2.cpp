@@ -1,4 +1,9 @@
 ﻿//42. Trapping Rain Water
+//
+//----------------------------------------------------
+// https://leetcode.com/problems/trapping-rain-water/
+//----------------------------------------------------
+//
 //Given n non - negative integers representing an elevation map where the width of each bar is 1, compute how much water it can trap after raining.
 //
 //Example 1:
@@ -20,8 +25,7 @@
 #include <vector>          
 #include <Algorithm>
 
-
-int trap(std::vector<int>& height)                        //плохой код - решал как мог(без подсказок)
+int trap_vers1(std::vector<int>& height)                        //плохой код - решал как мог(без подсказок)
 {
 	long long sum = 0;
 	int left = 0, right = height.size() - 1;
@@ -74,12 +78,38 @@ int trap(std::vector<int>& height)                        //плохой код 
 	return sum;
 }
 
+int trap_vers2(std::vector<int>& height)              //после анализа чужих функций, переписал свою
+{
+	int sum = 0;
+	int left = 0, right = height.size() - 1;
+	int maxLeft = 0, maxRight = 0;
+
+	while (left < right)
+	{
+		if (height[left] < height[right])
+		{
+			if (height[left] > maxLeft)
+				maxLeft = height[left];
+			else sum += maxLeft - height[left];
+			left++;
+		}
+		else
+		{
+			if (height[right] > maxRight)
+				maxRight = height[right];
+			else sum += maxRight - height[right];
+			right--;
+		}
+	}
+
+	return sum;
+}
 
 int main()                                                 
 {             
 	std::vector<int>vec{ 0,1,0,2,1,0,1,3,2,1,2,1 };
 													
-	std::cout << "RESULT: " << trap(vec) << std::endl;
+	std::cout << "RESULT: " << trap_vers2(vec) << std::endl;
 
 	return 0;
 }
