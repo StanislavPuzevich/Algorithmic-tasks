@@ -22,3 +22,13 @@ Collection of solutions to algorithmic problems from the LeetCode website and ot
 | 47| [Permutations II](https://leetcode.com/problems/permutations-ii/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/2_MediumProblem_32.cpp)| Medium|
 | 49| [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/2_MediumProblem_19.cpp)| Medium|
 | 50| [Pow(x, n)](https://leetcode.com/problems/powx-n/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/2_MediumProblem_9.cpp)| Medium|
+| 53| [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/2_MediumProblem_46.cpp)| Medium|
+| 59| [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/2_MediumProblem_3.cpp)| Medium|
+| 61| [Rotate List](https://leetcode.com/problems/rotate-list/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/2_MediumProblem_20.cpp)| Medium|
+| 74| [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/2_MediumProblem_23.cpp)| Medium|
+| 78| [Subsets](https://leetcode.com/problems/subsets/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/2_MediumProblem_34.cpp)| Medium|
+| 82| [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/2_MediumProblem_17.cpp)| Medium|
+| 88| [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/3_EasyProblem_23.cpp)| Easy|
+| 94| [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/3_EasyProblem_4.cpp)| Easy|
+| 99| [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/2_MediumProblem_25.cpp)| Medium|
+| 104| [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/3_EasyProblem_5.cpp)| Easy|
