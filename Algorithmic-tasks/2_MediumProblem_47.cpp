@@ -10,8 +10,8 @@
 //Assume the environment does not allow you to store 64 - bit integers(signed or unsigned).
 //
 //Example 1:
-//Input: x = 123
-//Output : 321
+//    Input: x = 123
+//    Output : 321
 //
 //Example 2 :
 //    Input : x = -123
