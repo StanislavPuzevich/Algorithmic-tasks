@@ -21,8 +21,8 @@ Collection of solutions to algorithmic problems from the LeetCode website and ot
 | 21| [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/3_EasyProblem_16.cpp)| Easy|
 | 22| [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/2_MediumProblem_35.cpp)| Medium|
 | 32| [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/1_HardProblem_4.cpp)| Hard|
-| 36| [Combination Sum](https://leetcode.com/problems/combination-sum/description/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/2_MediumProblem_49.cpp)| Medium|
-| 39| [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/2_MediumProblem_24.cpp)| Medium|
+| 36| [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/2_MediumProblem_24.cpp)| Medium|
+| 39| [Combination Sum](https://leetcode.com/problems/combination-sum/description/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/2_MediumProblem_49.cpp)| Medium|
 | 41| [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/1_HardProblem_5.cpp)| Hard|
 | 42| [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/1_HardProblem_2.cpp)| Hard|
 | 47| [Permutations II](https://leetcode.com/problems/permutations-ii/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/2_MediumProblem_32.cpp)| Medium|
