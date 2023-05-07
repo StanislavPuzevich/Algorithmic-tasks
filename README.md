@@ -16,6 +16,7 @@ Collection of solutions to algorithmic problems from the LeetCode website and ot
 | 14| [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/3_EasyProblem_38.cpp)| Easy|
 | 15| [3Sum](https://leetcode.com/problems/3sum/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/2_MediumProblem_26.cpp)| Medium|
 | 16| [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/2_MediumProblem_27.cpp)| Medium|
+| 17| [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/2_MediumProblem_48.cpp)| Medium|
 | 18| [4Sum](https://leetcode.com/problems/4sum/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/2_MediumProblem_31.cpp)| Medium|
 | 21| [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/3_EasyProblem_16.cpp)| Easy|
 | 22| [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/2_MediumProblem_35.cpp)| Medium|
