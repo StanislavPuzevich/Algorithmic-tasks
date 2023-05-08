@@ -48,3 +48,12 @@ Collection of solutions to algorithmic problems from the LeetCode website and ot
 | 148| [Sort List](https://leetcode.com/problems/sort-list/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/2_MediumProblem_12.cpp)| Medium|
 | 1572| [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/3_EasyProblem_40.cpp)| Easy|
 | 1822| [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/description/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/3_EasyProblem_39.cpp)| Easy|
+
+Однако, он добавляет его в качестве новой строки, начинающиеся с `- + ! #`
+
+[![Введите описание изображения здесь][1]][1]
+
+Этот вопрос был поднят в [гитхаб разметки, #369][2], но они не&#39;т сделано внесения изменений в решение с тех пор (2014).
+
+[1]: https://i.stack.imgur.com/0buxS.png
+[2]: https://github.com/github/markup/issues/369
