@@ -3,7 +3,7 @@ Collection of solutions to algorithmic problems from the LeetCode website and ot
 
 | #           | Title	                                                      | Solution      | Difficulty      |
 |-----------|---------------------------------------------------------------|---------------|-----------------| 
-| 1| [Two Sum](https://leetcode.com/problems/two-sum/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/3_EasyProblem_36.cpp)| Easy|
+| 1| [Two Sum](https://leetcode.com/problems/two-sum/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/3_EasyProblem_36.cpp)| #### $\textcolor{red}{\textsf{Hard .}}$ |
 | 2| [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/2_MediumProblem_18.cpp)| Medium|
 | 3| [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/2_MediumProblem_1.cpp)| Medium|
 | 4| [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/1_HardProblem_1.cpp)| Hard|
@@ -48,12 +48,3 @@ Collection of solutions to algorithmic problems from the LeetCode website and ot
 | 148| [Sort List](https://leetcode.com/problems/sort-list/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/2_MediumProblem_12.cpp)| Medium|
 | 1572| [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/3_EasyProblem_40.cpp)| Easy|
 | 1822| [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/description/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/3_EasyProblem_39.cpp)| Easy|
-
-Однако, он добавляет его в качестве новой строки, начинающиеся с `- + ! #`
-
-[![Введите описание изображения здесь][1]][1]
-
-Этот вопрос был поднят в [гитхаб разметки, #369][2], но они не&#39;т сделано внесения изменений в решение с тех пор (2014).
-
-[1]: https://i.stack.imgur.com/0buxS.png
-[2]: https://github.com/github/markup/issues/369
