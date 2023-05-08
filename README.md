@@ -46,4 +46,5 @@ Collection of solutions to algorithmic problems from the LeetCode website and ot
 | 144| [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/3_EasyProblem_6.cpp)| Easy|
 | 145| [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/3_EasyProblem_35.cpp)| Easy|
 | 148| [Sort List](https://leetcode.com/problems/sort-list/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/2_MediumProblem_12.cpp)| Medium|
+| 1572| [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/3_EasyProblem_40.cpp)| Easy|
 | 1822| [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/description/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/3_EasyProblem_39.cpp)| Easy|
