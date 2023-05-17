@@ -50,3 +50,5 @@ Collection of solutions to algorithmic problems from the LeetCode website and ot
 | 148| [Sort List](https://leetcode.com/problems/sort-list/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/2_MediumProblem_12.cpp)| $\textcolor{orange}{\textsf{Medium}}$|
 | 1572| [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/3_EasyProblem_40.cpp)| $\textcolor{green}{\textsf{Easy}}$|
 | 1822| [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/description/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/3_EasyProblem_39.cpp)| $\textcolor{green}{\textsf{Easy}}$|
+| 2130| [Maximum Twin Sum of a Linked List
+](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/description/) | [C++](https://github.com/StanislavPuzevich/Algorithmic-tasks/blob/master/Algorithmic-tasks/2_MediumProblem_51.cpp)| $\textcolor{orange}{\textsf{Medium}}$|
