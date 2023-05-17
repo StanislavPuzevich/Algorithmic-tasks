@@ -77,7 +77,7 @@ int main()
 {
 	Solution s;
 		
-	ListNode fourth (1);
+	ListNode fourth(1);
 	ListNode third (2, &fourth);
 	ListNode second(4, &third);
 	ListNode first (5, &second);
