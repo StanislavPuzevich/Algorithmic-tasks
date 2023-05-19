@@ -16,8 +16,8 @@
 //		1->3->4,
 //		2->6
 //	]
-//merging them into one sorted list :
-//1->1->2->3->4->4->5->6
+//	merging them into one sorted list :
+//	1->1->2->3->4->4->5->6
 //
 //Example 2 :
 //	Input : lists = []
